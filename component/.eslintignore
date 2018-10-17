@@ -1,0 +1,8 @@
+dist/
+node_modules/
+public/
+./webpack.config.js
+/lib
+/es
+src/lib
+src/es

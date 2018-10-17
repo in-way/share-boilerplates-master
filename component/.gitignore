@@ -1,0 +1,13 @@
+.DS_Store/
+node_modules/
+dist/
+
+.svn/
+.idea/
+.vscode/
+visualizer/
+yarn-error.log
+es/
+lib/
+src/es
+src/lib

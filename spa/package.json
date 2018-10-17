@@ -1,0 +1,32 @@
+{
+  "name": "sunsharing-spa",
+  "version": "1.0.1",
+  "scripts": {
+    "start": "sharekit server",
+    "build": "sharekit build",
+    "build-analyze": "sharekit build --analyze",
+    "lint": "eslint --ext .js src > eslintErrorLog.txt"
+  },
+  "devDependencies": {
+    "@yo/eslint-config-sunsharing": "^1.2.2",
+    "@yo/share-kit": "^0.6.5",
+    "babel-plugin-dva-hmr": "^0.3.2",
+    "redbox-react": "^1.5.0"
+  },
+  "dependencies": {
+    "@share/shareui": "^2.17.15",
+    "@share/shareui-font": "^3.0.9",
+    "@share/shareui-html": "^2.16.7",
+    "antd": "^3.2.3",
+    "babel-plugin-import": "^1.6.6",
+    "classnames": "^2.2.5",
+    "dva": "^2.1.0",
+    "jquery": "^3.3.1",
+    "nprogress": "^0.2.0",
+    "rc-form": "^2.1.7",
+    "react": "^16.2.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^16.2.0",
+    "reactcss": "^1.2.3"
+  }
+}
